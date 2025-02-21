@@ -1,7 +1,4 @@
 import rumps
-from PIL import Image, ImageDraw
-import threading
-import time
 from controller import get_current_song, play_song, pause_song, next_song, previous_song
 class spotifyWidgetApp(rumps.App):
     def __init__(self):
@@ -27,6 +24,3 @@ class spotifyWidgetApp(rumps.App):
     @rumps.clicked("Previous")
     def previous_song(self, _):
         previous_song()
-
-if __name__ == "__main__":
-    spotifyWidgetApp().run()

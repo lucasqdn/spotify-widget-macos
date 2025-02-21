@@ -21,7 +21,7 @@ def get_current_song():
         artist = track['item']['artists'][0]['name']
         song = track['item']['name']
         return f"{song} - {artist}"
-    return "None"
+    return "No song is playing"
 
 def next_song():
     sp.next_track();
