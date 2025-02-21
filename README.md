@@ -1,4 +1,4 @@
 # spotify-widget-macos
-Spotify widget on home screen and displaying status on menubar. Inspired by Sleeve
+Simple Spotify widget on the menubar using rumps library.
 
-image.png
+![alt text](image.png)
