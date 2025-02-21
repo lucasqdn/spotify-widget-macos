@@ -12,7 +12,7 @@ class spotifyWidgetApp(rumps.App):
 
     @rumps.clicked("Play/Pause")
     def play_pause(self, _):
-        if get_current_song() == "None":
+        if get_current_song() == "No song is playing":
             play_song()
         else:
             pause_song()
